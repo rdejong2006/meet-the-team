@@ -1,0 +1,42 @@
+.collega {
+    background-color:rgb(238, 0, 255);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        border-radius: 10px;
+}
+.collegas {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(1px 1px 2px black);
+}
+.avatar > img {
+    aspect-ratio: 1/1;
+object-fit: cover;
+    width: 230px;
+    margin: 20px;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: inside;
+text-align: left;
+    margin-right: 30px;
+
+}
+.collega > img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.collega:nth-child(1) >img {
+    object-position: 0%;
+}
+.collega:nth-child(3) >img {
+    object-position: 100%;
+}
